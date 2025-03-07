@@ -326,13 +326,14 @@ form{
     background-image: url(images/hero-slider-2.jpg);
     background-repeat: no-repeat;
     background-position: cover;
-    width: 100%;
-    display: grid;
+    width: 100vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
-    padding-top: 10rem;
-    padding-left: 6rem;
-    place-items: center;
-    min-height: 100vh ;
+    height: 100vh;
+    padding-top: 8rem;
 
  }
 
@@ -393,7 +394,6 @@ form{
     display: flex;
     gap: 1rem;
     justify-content: center;
-
     padding: 3rem 15%;
     height: auto;
     background: hsl(0, 0%, 90%);
@@ -634,6 +634,7 @@ form{
     gap: 1rem;
     padding-bottom: 3rem;
     justify-content: center;
+    height: auto;
 }
 
 .offer .text{
@@ -1053,8 +1054,26 @@ footer .contactus p{
 
 
 /* RESPONSIVE DESIGN */
+@media (max-width: 3800px){
 
+  .home{
+    height: 50vh;
+  }
+}
 
+@media (max-width: 2800px){
+  .home{
+  
+  
+    height: 50vh;
+  }
+}
+@media (max-width: 1900px){
+
+  .home{
+    height:100vh;
+  }
+}
 
 @media (max-width: 1200px){
 
