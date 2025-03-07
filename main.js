@@ -77,3 +77,11 @@ window.addEventListener ('scroll' , () => {
     header.classList.toggle('shadow', window.scrollY > 0);
 
 });
+
+
+//set Date
+const date = new Date();
+const year = date.getFullYear();
+
+const dateLable = document.getElementById("date");
+dateLable.textContent = year - 1;
