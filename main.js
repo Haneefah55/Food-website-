@@ -43,32 +43,11 @@ const closeLoginBtn = document.querySelector('#close-login');
 
 // show sign up box when sign up btn is clicked
 
-signUpBtn.onclick = () => {
-    signUpBx.style.display = 'flex';
-}
 
 // close sign up box when close btn is clicked
-closeSignUpBtn.onclick = () => {
-    signUpBx.style.display = 'none';
-}
-
-// show login box when login btn is clicked
-loginBtn.onclick = () => {
-    signUpBx.style.display = 'none';
-    loginBx.style.display = 'flex'
-}
-
-//close login bx when clicked
-closeLoginBtn.onclick = () => {
-    loginBx.style.display = 'none';
-}
-
-document.querySelector('.signup-btn').onclick = () => {
-    loginBx.style.display = 'none';
-    signUpBx.style.display = 'flex';
 
 
-}
+// show login box when login btn is clicke
 
 
 

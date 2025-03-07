@@ -169,14 +169,12 @@ header .bxs-bowl-rice{
 }
 
 .signup-box{
-    position: absolute;
-    z-index: 10001;
-    display: none;
+  
+    display: flex;
     flex-direction: column;
-    top: 4rem;
-    right: 2rem;
-    width: 17rem;
-    padding: 0 1rem;
+    
+    width: 20rem;
+    padding: 1rem;
     border-radius: 10px;
     background: hsla(0, 0%, 85%);
 }
@@ -186,7 +184,7 @@ header .bxs-bowl-rice{
     text-transform: uppercase;
     color: var(--main-color);
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     padding-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -197,9 +195,9 @@ form{
 
 .signup-box form .box{
     width: 100%;
-    font-size: .9rem;
-    margin-bottom: .2rem;
-    padding-bottom: .2rem;
+    font-size: 1rem;
+    
+    padding: .5rem;
     background: transparent;
     border-bottom: 2px solid #d67404;
 
@@ -214,18 +212,28 @@ form{
 
 .login-box form .box{
     width: 100%;
-    font-size: .9rem;
-    margin-bottom: .2rem;
-    padding-bottom: .2rem;
+    font-size: 1rem;
+    
+    padding: .5rem;
     background: transparent;
     border-bottom: 2px solid #d67404;
 
 
 }
+.dob{
+  font-size: 1rem;
+  border-bottom: 2px solid #d67404;
+  padding: .5rem;
+}
 
+.box-end{
+  
+  background: transparent;
+  
+}
 
 .signup-box form label{
-    color: #d67404;
+    color: #808080;
 
 }
 
@@ -277,11 +285,10 @@ form{
 
 .login-box{
     position: absolute;
-    display: none;
+    display: flex;
     flex-direction: column;
-    top: 4rem;
-    right: 2rem;
-    width: 17rem;
+    
+    width: 20rem;
     padding: 0 1rem;
     background: hsla(0, 0%, 85%);
     border-radius: 10px;
@@ -292,7 +299,7 @@ form{
     text-transform: uppercase;
     color: var(--main-color);
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     padding-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -1051,7 +1058,17 @@ footer .contactus p{
     padding: .6rem;
     
 }
-
+.container{
+  margin: auto;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/hero-slider-2.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  
+}
 
 
 
