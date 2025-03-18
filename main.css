@@ -72,6 +72,7 @@ header.shadow{
 
 header .bxs-bowl-rice{
     font-size: 1.5rem;
+    margin-right: .3rem;
     color: var(--main-color);
     cursor: pointer;
 
@@ -737,6 +738,7 @@ form{
     background: #fff;
     padding: 1rem;
     
+    
 
 }
 
@@ -753,10 +755,10 @@ form{
 
 .reservation .form .box{
     width: 100%;
-    font-size: .9rem;
-    margin-bottom: .5rem;
+    font-size: 1rem;
+    margin-bottom: .8rem;
     border-radius: 5px;
-    padding: .5rem;
+    padding: .6rem;
     background: transparent;
     border: 2px solid var(--main-color);
 
@@ -788,9 +790,9 @@ form{
 
 }
 .reservation .form .button-box{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: .5rem 1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
     background: transparent;
     width: 100%;
     color: #000;
@@ -821,7 +823,7 @@ form{
 
 .reservation .form .special-box{
     width: 100%;
-    height: 5rem;
+    height: 4rem;
     background: transparent;
     text-align: left;
     border-radius: 5px;
@@ -853,7 +855,7 @@ form{
     text-align: center;
 }
 
-.review .container{
+.review .review_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
@@ -999,6 +1001,15 @@ form{
     transform: scale(1.1);
 }
 
+.contact .form .send-btn{
+  background: #f2962e;
+  display: flex;
+  gap: .5rem;
+  padding: .5rem;
+  font-size: .9rem;
+  font-weight: 500;
+  align-items: center;
+}
 footer{
     background: var(--second-color);
     color: #fff;
@@ -1024,31 +1035,41 @@ footer .food h5{
     margin: 1rem 0;
 }
 
-footer .food .slinks a img{
+footer .food .slinks a .bx{
     width: 20px;
     height: 20px;
+    color: #f2962e;
 }
 footer .links{
     margin-bottom: .8rem;
 }
 
 footer .links a{
-
+  
     display: block;
     color: #fff;
     text-transform: capitalize;
     
 }
 
-footer .contactus span img{
-    width: 15px;
-    height: 15px;
-    margin-right: .5rem;
+footer .contactus .touch .bx{
+    width: 12px;
+    height: 12px;
+    
+    color: #f2962e;
     
 }
-footer .contactus p{
-    font-size: .8rem;
+footer .contactus .touch{
+    font-size: 1rem;
 }
+footer .contactus .touch{
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  align-items: center;
+  
+}
+
 
 .copy{
     font-size: 1rem;
@@ -1602,6 +1623,12 @@ footer .contactus p{
     footer{
         grid-template-columns: 1fr 1fr 1fr;
     }
+    
+    .review .review_container{
+
+      grid-template-columns: 1fr 1fr;
+      
+    }
 
 
     
@@ -1680,15 +1707,15 @@ footer .contactus p{
         height: 450px;
     }
 
-    .review .container{
+    .review .review_container{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 1rem;
         place-content: center;
     }
 
     .review{
-        padding-left: 11rem;
+        padding-left: 4rem;
         justify-content: center;
         
     }
@@ -1774,7 +1801,7 @@ footer .contactus p{
     }
 
     .review{
-        padding-left: 7rem;
+        padding-left: 5rem;
         justify-content: center;
         
     }
@@ -1885,28 +1912,28 @@ footer .contactus p{
     }
 
     .reservation .form .box{
-        font-size: .7rem;
+        font-size: 1rem;
         border-radius: 3px;
-        padding: .2rem;
+        padding: .8rem;
     }
 
     .reservation .form .num-box{
-        font-size: .7rem;
+        font-size: 1rem;
         border-radius: 3px;
-        padding: .2rem;
+        padding: .8rem;
         margin-left: .2rem;
     }
 
     .reservation .form .date-box{
-        font-size: .7rem;
+        font-size: 1rem;
         border-radius: 3px;
-        padding: .2rem;
+        padding: .8rem;
     }
 
     .reservation .form .special-box{
-        font-size: .7rem;
+        font-size: 1rem;
         border-radius: 3px;
-        padding: .2rem;
+        padding: .8rem;
 
     }
     
@@ -1924,6 +1951,12 @@ footer .contactus p{
         margin-bottom: 1rem;
         font-size: 1.2rem;
     }
+    
+    .review .review_container{
+    
+      grid-template-columns: 1fr;
+      g
+    }
 
     .review .title p{
         font-size: .9rem;
@@ -1938,7 +1971,7 @@ footer .contactus p{
     }
 
     .review{
-        padding-left: 5rem;
+        padding-left: 3rem;
     }
 
     .contact .form{
@@ -1948,7 +1981,7 @@ footer .contactus p{
     }
 
     footer{
-        padding-left: 2rem;
+        padding-left: 1rem;
     }
 
     .copy{
@@ -1957,7 +1990,7 @@ footer .contactus p{
         background: #d67404;
         color: #fff;
     }
-
+  
     
 
 
@@ -2040,7 +2073,7 @@ footer .contactus p{
     }
 
     footer{
-        padding-left: 5rem;
+        padding-left: 3pr em;
         grid-template-columns: 1fr;
         
     }
